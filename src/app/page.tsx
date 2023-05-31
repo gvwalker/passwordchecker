@@ -145,18 +145,16 @@ export default function Home() {
       )}
       <div className="mt-auto mb-8 text-center text-xs text-slate-500">
         <p>
-          This tool makes use of the{" "}
           <a className="underline" href="https://github.com/dropbox/zxcvbn">
             zxcvbn
           </a>{" "}
-          package to calculate password strengh.
+          package is used to calculate password strengh.
         </p>
         <p>
-          It also makes use of the{" "}
           <a className="underline" href="https://haveibeenpwned.com/Passwords">
             HIBP Pwned Passwords API
           </a>{" "}
-          in order to determine if a password has been compromised.
+          is used in order to determine if a password has been compromised.
         </p>
       </div>
       <div className="self-center">
